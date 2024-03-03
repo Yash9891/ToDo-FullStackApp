@@ -6,7 +6,7 @@ export default function Todo({text,updateMode,deletetodo}) {
         <div className="text">{text}</div>
         <div className="icons">
             <div className='icon' onClick={updateMode}>Update</div>
-            <div className='icon' onClick={deletetodo}>Delete</div>
+            <div className='icon danger' onClick={deletetodo}>Delete</div>
 
         </div>
     </div>
