@@ -1,5 +1,7 @@
 .todo{
     display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 .icons{
@@ -8,6 +10,37 @@
     display: flex;
 }
 .text{
+    width: 70%;
+    font-family: "Dancing Script", cursive;
+ 
     font-size: 1.5rem;
-    color: red;
+    font-weight: 700;
+    color: rgb(107, 184, 252);
+    background-color: rgba(2, 85, 104, 0.475);
+    border-radius: 1rem;
+    padding: 0px 10px 0px 15px;
+    margin-bottom: 10px;
+
+} 
+.icon{
+   
+    margin: 5px;
+    background-color: rgb(3, 189, 146);
+    border-radius: 0.7rem;
+    padding: 2px 15px 4px 15px;
+    font-weight: 700;
+    color: aliceblue;
+    
+    
+}
+.danger{
+   
+    margin: 5px;
+    background-color: rgb(255, 80, 80);
+    border-radius: 0.7rem;
+    padding: 2px 15px 4px 15px;
+    font-weight: 700;
+    color: aliceblue;
+    
+    
 }
