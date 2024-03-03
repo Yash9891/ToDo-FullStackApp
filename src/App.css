@@ -1,9 +1,58 @@
+
+body{
+  background-color: rgb(23, 23, 23);
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 .top{
   display: flex}
-.hir{
-  color: red;
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
-body{
-  background-color: black;
+.container h1{
+  color: rgb(0, 228, 253);
+  font-size: 3rem;
+  font-weight: 700;
+}
+.top{
+  margin-bottom: 35px;
+}
+
+.top input{
+ 
+  appearance: none;
+  outline: none;
+  font-size: 1.4rem;
+  
+  background-color: rgba(96, 72, 251, 0.547);
+  padding: 5px;
+  padding-left: 10px;
+  border: none;
+  border-top-left-radius: 0.4rem;
+  border-bottom-left-radius: 0.4rem;
+  font-weight:700 ;
   color: white;
+}
+::placeholder {
+
+  color: rgb(247, 247, 247);
+  opacity: 1; /* Firefox */
+}
+.top input:focus {
+  outline: none; /* Removes the default focus outline */
+  /* Apply any other styles to the focused input as needed */
+}
+.add{
+  cursor: pointer;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  background-color: rgb(86, 71, 245);
+  padding:0px 10px 0px 11px ;
+  font-size: 1.3rem;
+  
+  border-top-right-radius: 0.4rem;
+  border-bottom-right-radius: 0.4rem;
 }
